@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+root{
+--red-dark:#DD1711;
+--blue-smooth:#ACD9EB;
+--orange:#ff9f43;
+--font-size
+}
+
+body{
+    width:100vw;
+    height:900px;
+    background-image: url(./images/fancy-pants.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    background-image: url(./images/WallpaperDog.jpg);
+    height:200px;
+    width:100vw;
+}
+   
+   
