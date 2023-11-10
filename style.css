@@ -20,10 +20,25 @@ body{
     color: aliceblue;
     font-family: 'Kanit', sans-serif;
 }
+
 header{
     background-image: url(./images/WallpaperDog.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
     height:200px;
     width:100vw;
+    display:flex;
+    flex-flow: row nowrap;
+    align-items:flex-end;
+    justify-content: space-evenly;
 }
+    
+.stormtrooper{
+    height:70px;
+    width:70px;
+    object-fit: cover;
+}
+    
+    
    
    
