@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-root{
+:root{
 --red-dark:#DD1711;
 --blue-smooth:#ACD9EB;
 --orange:#ff9f43;
@@ -12,8 +12,8 @@ root{
 }
 
 body{
-    width:100vw;
-    height:900px;
+    width:100vh;
+    
     background-image: url(./images/fancy-pants.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,10 +22,7 @@ body{
 }
 
 header{
-    background-image: url(./images/WallpaperDog.jpg);
-    background-size:contain;
-    background-repeat: no-repeat;
-    height:200px;
+    height:100px;
     width:100vw;
     display:flex;
     flex-flow: row nowrap;
